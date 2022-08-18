@@ -46,12 +46,8 @@ main {
     list-style-type: none;   
     
 }
-.nav-list {
-    transition: box-shadow .3s;
-}
-.nav-list:hover {
-    box-shadow: 0 0 25px gray;;
-}
+
+
 .nameplate {
     display: flex;
     flex-wrap: wrap;
@@ -153,6 +149,70 @@ header {
     border-radius: 5%;
     align-self: center;
 
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFE7E7 ;
+  
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+
+}
+.icon>img{
+    height: 45px;
+    width: 45px;
+    transition: background-color .3s ease-in-out;
+}
+.icon>img:hover{
+    background-color:rgb(255, 255, 255);
+    border-radius: 30%;
+    
+}
+
+
+.contact>h1 {
+    font-size: 50px;
+}
+
+
+.right>.list>ul {
+    list-style-type: none;
+
+}
+.right>.list>ul>li{
+    margin-bottom: 5px;
+}
+.links {
+    display: flex;
+    padding: 10px;
+
+}
+footer{
+    background-color: #2a2b2c7c;
+}
+.right {
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 20px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
 }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
